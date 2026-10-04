@@ -2965,3 +2965,168 @@
     }
 
 }
+/* =========================================================
+   HOME HERO — MOBILE RESPONSIVE FINAL FIX
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    /* Hero section */
+    .hero-section {
+        min-height: 650px;
+        height: auto;
+    }
+
+    /* Main hero content */
+    .hero-container {
+        width: calc(100% - 32px);
+        height: auto;
+
+        grid-template-columns: 1fr;
+
+        padding-top: 70px;
+        padding-bottom: 105px;
+    }
+
+    /* Hero buttons */
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 12px;
+        margin-top: 22px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Center the hero visual on mobile */
+    .hero-visual {
+        position: absolute;
+
+        left: 50%;
+        right: auto;
+
+        bottom: 115px;
+
+        width: min(85vw, 340px);
+        height: auto;
+        min-height: 0;
+
+        transform: translateX(-50%);
+
+        opacity: 0.22;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-main-visual {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+
+        object-fit: contain;
+    }
+
+    .hero-visual-glow {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* Background SVG */
+    .hero-background {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+
+        opacity: 0.55;
+    }
+
+    .hero-background img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    /* Hero bottom highlights */
+    .hero-highlights {
+        width: calc(100% - 32px);
+
+        left: 50%;
+        bottom: 0;
+
+        transform: translateX(-50%);
+
+        height: auto;
+
+        grid-template-columns: 1fr;
+
+        border-top: 0;
+    }
+
+    .hero-highlight {
+        min-height: 68px;
+
+        padding: 10px 14px;
+
+        justify-content: flex-start;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 420px) {
+
+    .hero-section {
+        min-height: 620px;
+    }
+
+    .hero-container {
+        width: calc(100% - 26px);
+
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .hero-buttons .btn {
+        max-width: 280px;
+    }
+
+    .hero-visual {
+        width: 80vw;
+        max-width: 300px;
+
+        bottom: 105px;
+
+        opacity: 0.20;
+    }
+
+    .hero-main-visual {
+        max-width: 300px;
+    }
+
+    .hero-visual-glow {
+        width: 240px;
+        height: 240px;
+    }
+
+    .hero-highlights {
+        width: calc(100% - 26px);
+    }
+
+    .hero-highlight {
+        min-height: 64px;
+        padding: 9px 12px;
+    }
+
+}
