@@ -1,0 +1,73 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="processBuild"
+                        x1="8" y1="8"
+                        x2="56" y2="56">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Code window -->
+    <rect x="10" y="13" width="44" height="36" rx="6"
+          fill="#F4F7FB"
+          stroke="url(#processBuild)"
+          stroke-width="2.5"/>
+
+    <!-- Window header -->
+    <path d="M10 23H54"
+          stroke="#0E2A47"
+          stroke-width="1.8"/>
+
+    <circle cx="18" cy="18" r="2"
+            fill="#00C6FB"/>
+
+    <circle cx="25" cy="18" r="2"
+            fill="#00C6FB"
+            opacity="0.65"/>
+
+    <circle cx="32" cy="18" r="2"
+            fill="#0A58CA"
+            opacity="0.65"/>
+
+    <!-- Code brackets -->
+    <path d="M23 31L18 36L23 41"
+          stroke="#0A58CA"
+          stroke-width="2.4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M41 31L46 36L41 41"
+          stroke="#00C6FB"
+          stroke-width="2.4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Code line -->
+    <path d="M28 42L36 30"
+          stroke="#0E2A47"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+    <!-- Build nodes -->
+    <circle cx="8" cy="30" r="2"
+            fill="#00C6FB"/>
+
+    <circle cx="56" cy="43" r="2"
+            fill="#0A58CA"/>
+
+    <path d="M10 30H15"
+          stroke="#00C6FB"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          opacity="0.65"/>
+
+    <path d="M49 43H54"
+          stroke="#0A58CA"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          opacity="0.65"/>
+
+</svg>

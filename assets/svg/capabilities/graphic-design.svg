@@ -1,0 +1,51 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="capDesign" x1="9" y1="9" x2="55" y2="55">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Design canvas -->
+    <rect x="10" y="11" width="44" height="42" rx="8"
+          fill="#0E2A47"
+          stroke="url(#capDesign)"
+          stroke-width="2.5"/>
+
+    <!-- Image / design frame -->
+    <rect x="19" y="19" width="26" height="20" rx="3"
+          stroke="#00C6FB"
+          stroke-width="1.8"/>
+
+    <!-- Sun / circle -->
+    <circle cx="27" cy="26" r="3"
+            fill="#00C6FB"
+            opacity="0.9"/>
+
+    <!-- Mountain / creative shape -->
+    <path d="M21 36L28 30L33 34L37 29L43 36"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Design tool -->
+    <path d="M22 46L38 30L44 36L28 52L21 53L22 46Z"
+          fill="#0E2A47"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-linejoin="round"/>
+
+    <path d="M36 32L42 38"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+    <!-- Creative spark -->
+    <path d="M49 8L51 12L55 14L51 16L49 20L47 16L43 14L47 12L49 8Z"
+          fill="#00C6FB"
+          fill-opacity="0.16"
+          stroke="#00C6FB"
+          stroke-width="1.4"
+          stroke-linejoin="round"/>
+</svg>

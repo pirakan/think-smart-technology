@@ -1,0 +1,81 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="serviceWave"
+                        x1="900" y1="120"
+                        x2="1450" y2="760">
+            <stop stop-color="#00C6FB"
+                  stop-opacity="0.22"/>
+            <stop offset="1"
+                  stop-color="#0A58CA"
+                  stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Grid -->
+
+    <path d="M0 100H1600M0 200H1600M0 300H1600M0 400H1600M0 500H1600M0 600H1600M0 700H1600M0 800H1600"
+          stroke="#00C6FB"
+          stroke-opacity="0.045"/>
+
+    <path d="M100 0V900M200 0V900M300 0V900M400 0V900M500 0V900M600 0V900M700 0V900M800 0V900M900 0V900M1000 0V900M1100 0V900M1200 0V900M1300 0V900M1400 0V900M1500 0V900"
+          stroke="#00C6FB"
+          stroke-opacity="0.045"/>
+
+
+    <!-- Digital wave -->
+
+    <path d="M780 130
+             C950 40 1040 180 1130 145
+             C1240 103 1260 20 1400 65
+             C1510 100 1515 210 1600 190"
+          stroke="url(#serviceWave)"
+          stroke-width="2"/>
+
+    <path d="M820 680
+             C970 590 1080 720 1170 660
+             C1290 580 1360 700 1600 570"
+          stroke="#00C6FB"
+          stroke-opacity="0.12"
+          stroke-width="2"/>
+
+
+    <!-- Nodes -->
+
+    <circle cx="900" cy="130" r="5"
+            fill="#00C6FB"
+            fill-opacity="0.65"/>
+
+    <circle cx="1130" cy="145" r="4"
+            fill="#00C6FB"
+            fill-opacity="0.55"/>
+
+    <circle cx="1400" cy="65" r="5"
+            fill="#00C6FB"
+            fill-opacity="0.65"/>
+
+    <circle cx="1170" cy="660" r="5"
+            fill="#0A58CA"
+            fill-opacity="0.55"/>
+
+    <circle cx="1360" cy="700" r="4"
+            fill="#00C6FB"
+            fill-opacity="0.5"/>
+
+
+    <!-- Connection lines -->
+
+    <path d="M900 130L980 250L1130 145"
+          stroke="#00C6FB"
+          stroke-opacity="0.10"
+          stroke-width="1.5"
+          stroke-dasharray="5 8"/>
+
+    <path d="M1170 660L1260 540L1360 700"
+          stroke="#00C6FB"
+          stroke-opacity="0.10"
+          stroke-width="1.5"
+          stroke-dasharray="5 8"/>
+
+</svg>

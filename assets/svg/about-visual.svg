@@ -1,0 +1,241 @@
+<svg width="720" height="560" viewBox="0 0 720 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="aboutBlue" x1="120" y1="90" x2="610" y2="470" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+
+        <linearGradient id="aboutScreen" x1="230" y1="160" x2="520" y2="370" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0E2A47"/>
+            <stop offset="1" stop-color="#123B63"/>
+        </linearGradient>
+
+        <filter id="aboutShadow" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="18" stdDeviation="22"
+                          flood-color="#0E2A47" flood-opacity="0.14"/>
+        </filter>
+    </defs>
+
+    <!-- Soft background orbit -->
+    <circle cx="390" cy="280" r="210"
+            stroke="#0A58CA"
+            stroke-width="1"
+            stroke-dasharray="5 9"
+            opacity="0.12"/>
+
+    <circle cx="390" cy="280" r="165"
+            stroke="#00C6FB"
+            stroke-width="1"
+            stroke-dasharray="3 8"
+            opacity="0.15"/>
+
+    <!-- Connection lines -->
+    <path d="M126 176C184 140 207 139 250 161"
+          stroke="#00C6FB"
+          stroke-width="2"
+          opacity="0.38"/>
+
+    <path d="M487 155C535 129 571 141 606 174"
+          stroke="#0A58CA"
+          stroke-width="2"
+          opacity="0.30"/>
+
+    <path d="M525 386C575 404 594 425 616 456"
+          stroke="#00C6FB"
+          stroke-width="2"
+          opacity="0.32"/>
+
+    <!-- Connection nodes -->
+    <circle cx="126" cy="176" r="5" fill="#00C6FB"/>
+    <circle cx="250" cy="161" r="4" fill="#0A58CA"/>
+    <circle cx="487" cy="155" r="4" fill="#00C6FB"/>
+    <circle cx="606" cy="174" r="5" fill="#0A58CA"/>
+    <circle cx="525" cy="386" r="4" fill="#00C6FB"/>
+    <circle cx="616" cy="456" r="5" fill="#00C6FB"/>
+
+    <!-- Laptop -->
+    <g filter="url(#aboutShadow)">
+        <!-- Screen -->
+        <rect x="205" y="130" width="330" height="220" rx="18"
+              fill="white"
+              stroke="#0A58CA"
+              stroke-width="3"/>
+
+        <!-- Screen inner -->
+        <rect x="220" y="145" width="300" height="190" rx="11"
+              fill="url(#aboutScreen)"/>
+
+        <!-- Browser dots -->
+        <circle cx="241" cy="166" r="4" fill="#00C6FB"/>
+        <circle cx="254" cy="166" r="4" fill="#0A58CA"/>
+        <circle cx="267" cy="166" r="4" fill="#6D8AA5"/>
+
+        <!-- Dashboard -->
+        <rect x="240" y="188" width="92" height="122" rx="8"
+              fill="#123F68"/>
+
+        <rect x="346" y="188" width="153" height="42" rx="8"
+              fill="#15507E"/>
+
+        <rect x="346" y="241" width="72" height="69" rx="8"
+              fill="#123F68"/>
+
+        <rect x="428" y="241" width="71" height="69" rx="8"
+              fill="#123F68"/>
+
+        <!-- Dashboard lines -->
+        <path d="M258 210H306"
+              stroke="#00C6FB"
+              stroke-width="5"
+              stroke-linecap="round"/>
+
+        <path d="M258 226H296"
+              stroke="#6A8CA8"
+              stroke-width="4"
+              stroke-linecap="round"/>
+
+        <path d="M258 242H286"
+              stroke="#6A8CA8"
+              stroke-width="4"
+              stroke-linecap="round"/>
+
+        <!-- Growth graph -->
+        <path d="M362 214L382 202L400 209L420 194L438 202L459 187L482 193"
+              stroke="#00C6FB"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+
+        <circle cx="482" cy="193" r="4"
+                fill="#00C6FB"/>
+
+        <!-- Small chart -->
+        <rect x="360" y="278" width="8" height="18" rx="2" fill="#00C6FB"/>
+        <rect x="375" y="267" width="8" height="29" rx="2" fill="#0A58CA"/>
+        <rect x="390" y="257" width="8" height="39" rx="2" fill="#00C6FB"/>
+        <rect x="405" y="246" width="8" height="50" rx="2" fill="#0A58CA"/>
+
+        <!-- Laptop base -->
+        <path d="M175 350H565L600 385C605 391 601 400 592 400H148C139 400 135 391 140 385L175 350Z"
+              fill="white"
+              stroke="#0A58CA"
+              stroke-width="3"/>
+
+        <path d="M300 365H440"
+              stroke="#B8C7D6"
+              stroke-width="7"
+              stroke-linecap="round"/>
+    </g>
+
+    <!-- Mobile device -->
+    <g filter="url(#aboutShadow)">
+        <rect x="500" y="285" width="105" height="190" rx="20"
+              transform="rotate(9 500 285)"
+              fill="white"
+              stroke="#0A58CA"
+              stroke-width="3"/>
+
+        <rect x="513" y="307" width="79" height="145" rx="12"
+              transform="rotate(9 513 307)"
+              fill="#0E2A47"/>
+
+        <circle cx="551" cy="316" r="3"
+                fill="#00C6FB"/>
+
+        <rect x="530" y="342" width="46" height="9" rx="4"
+              transform="rotate(9 530 342)"
+              fill="#00C6FB"
+              opacity="0.85"/>
+
+        <path d="M535 393L549 376L559 385L574 365"
+              stroke="#00C6FB"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              transform="rotate(9 535 393)"/>
+
+        <circle cx="573" cy="365" r="4"
+                fill="#00C6FB"/>
+    </g>
+
+    <!-- Cloud -->
+    <g>
+        <path d="M106 335C106 317 121 303 139 303
+                 C143 282 161 267 184 267
+                 C208 267 227 284 231 307
+                 C247 308 259 320 259 336
+                 C259 354 245 367 228 367H137
+                 C119 367 106 354 106 335Z"
+              fill="white"
+              stroke="url(#aboutBlue)"
+              stroke-width="3"/>
+
+        <path d="M154 335H211"
+              stroke="#00C6FB"
+              stroke-width="5"
+              stroke-linecap="round"/>
+
+        <circle cx="182" cy="335" r="8"
+                fill="#0E2A47"
+                stroke="#00C6FB"
+                stroke-width="2"/>
+    </g>
+
+    <!-- AI node -->
+    <g>
+        <circle cx="590" cy="115" r="37"
+                fill="white"
+                stroke="#00C6FB"
+                stroke-width="2.5"/>
+
+        <rect x="570" y="95" width="40" height="40" rx="11"
+              fill="#0E2A47"
+              stroke="#0A58CA"
+              stroke-width="2"/>
+
+        <circle cx="583" cy="114" r="3"
+                fill="#00C6FB"/>
+
+        <circle cx="597" cy="114" r="3"
+                fill="#00C6FB"/>
+
+        <path d="M582 124C587 128 593 128 598 124"
+              stroke="#00C6FB"
+              stroke-width="2"
+              stroke-linecap="round"/>
+
+        <path d="M570 105H561M570 125H561M610 105H619M610 125H619"
+              stroke="#00C6FB"
+              stroke-width="2"
+              stroke-linecap="round"/>
+    </g>
+
+    <!-- Floating data cards -->
+    <rect x="92" y="210" width="92" height="55" rx="12"
+          fill="white"
+          stroke="#0A58CA"
+          stroke-width="2"
+          opacity="0.96"/>
+
+    <path d="M111 231H143"
+          stroke="#0A58CA"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <path d="M111 244H132"
+          stroke="#00C6FB"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <circle cx="158" cy="238" r="7"
+            fill="#00C6FB"
+            opacity="0.18"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <!-- Small decorative nodes -->
+    <circle cx="82" cy="425" r="4" fill="#00C6FB"/>
+    <circle cx="648" cy="275" r="4" fill="#0A58CA"/>
+    <circle cx="625" cy="510" r="3" fill="#00C6FB"/>
+    <circle cx="154" cy="475" r="3" fill="#0A58CA"/>
+</svg>

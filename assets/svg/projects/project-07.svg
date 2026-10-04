@@ -1,0 +1,57 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="700" rx="24" fill="#EDF7FA"/>
+
+<circle cx="1080" cy="100" r="190" fill="#D9EEF4"/>
+<circle cx="100" cy="620" r="150" fill="#DCEBF1"/>
+
+<!-- CCTV Camera -->
+<rect x="155" y="165" width="260" height="145" rx="22" fill="white" stroke="#BBD8E2" stroke-width="3"/>
+<path d="M205 220H365L405 250L365 280H205L175 250L205 220Z" fill="#06324D"/>
+<circle cx="325" cy="250" r="28" fill="#0A5378"/>
+<circle cx="325" cy="250" r="13" fill="#00C4ED"/>
+<path d="M225 220V195" stroke="#06324D" stroke-width="10" stroke-linecap="round"/>
+<path d="M210 195H245" stroke="#06324D" stroke-width="10" stroke-linecap="round"/>
+
+<!-- Monitoring screen -->
+<rect x="475" y="125" width="560" height="350" rx="24" fill="#06324D"/>
+<rect x="500" y="155" width="510" height="290" rx="16" fill="#0A405D"/>
+
+<!-- Camera views -->
+<rect x="525" y="180" width="215" height="110" rx="10" fill="#173F55"/>
+<rect x="765" y="180" width="215" height="110" rx="10" fill="#173F55"/>
+<rect x="525" y="310" width="215" height="110" rx="10" fill="#173F55"/>
+<rect x="765" y="310" width="215" height="110" rx="10" fill="#173F55"/>
+
+<!-- View 1 -->
+<path d="M540 265L580 220L620 250L680 200L725 260" stroke="#00B8E6" stroke-width="4"/>
+<text x="540" y="205" font-family="Arial" font-size="11" fill="#A8C5D2">CAM 01</text>
+
+<!-- View 2 -->
+<circle cx="870" cy="235" r="35" fill="#1677B8"/>
+<circle cx="870" cy="235" r="17" fill="#00C4ED"/>
+<text x="785" y="205" font-family="Arial" font-size="11" fill="#A8C5D2">CAM 02</text>
+
+<!-- View 3 -->
+<rect x="550" y="345" width="160" height="45" rx="8" fill="#0C536F"/>
+<circle cx="570" cy="367" r="7" fill="#00C4ED"/>
+<circle cx="595" cy="367" r="7" fill="#00C4ED"/>
+<circle cx="620" cy="367" r="7" fill="#00C4ED"/>
+<text x="540" y="335" font-family="Arial" font-size="11" fill="#A8C5D2">CAM 03</text>
+
+<!-- View 4 -->
+<path d="M790 390L825 345L860 375L900 330L955 395" stroke="#00C4ED" stroke-width="4"/>
+<text x="785" y="335" font-family="Arial" font-size="11" fill="#A8C5D2">CAM 04</text>
+
+<!-- Security badge -->
+<rect x="170" y="385" width="245" height="105" rx="18" fill="white" stroke="#C8E1E8" stroke-width="2"/>
+<path d="M220 410L255 425V450C255 470 240 482 220 490C200 482 185 470 185 450V425L220 410Z" fill="#00B8E6"/>
+<path d="M205 450L216 461L238 437" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="280" y="440" font-family="Arial" font-size="16" font-weight="700" fill="#07304A">SECURE</text>
+<text x="280" y="462" font-family="Arial" font-size="12" fill="#78909C">24/7 Monitoring</text>
+
+<!-- Network lines -->
+<path d="M415 250H475" stroke="#00A9D6" stroke-width="4" stroke-dasharray="8 8"/>
+<path d="M415 440H475" stroke="#00A9D6" stroke-width="4" stroke-dasharray="8 8"/>
+
+</svg>

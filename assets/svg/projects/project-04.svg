@@ -1,0 +1,65 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="700" rx="24" fill="#EAF7FC"/>
+
+<!-- Decorative circles -->
+<circle cx="1080" cy="80" r="180" fill="#D8F1F8"/>
+<circle cx="100" cy="650" r="150" fill="#DCEAF2"/>
+
+<!-- Header -->
+<rect x="90" y="70" width="1020" height="70" rx="18" fill="white"/>
+<circle cx="135" cy="105" r="20" fill="#00B8E6"/>
+<text x="170" y="115" font-family="Arial" font-size="25" font-weight="700" fill="#07304A">FOODLY</text>
+
+<text x="780" y="113" font-family="Arial" font-size="17" fill="#527086">Home</text>
+<text x="850" y="113" font-family="Arial" font-size="17" fill="#527086">Restaurants</text>
+<text x="970" y="113" font-family="Arial" font-size="17" fill="#527086">Orders</text>
+
+<!-- Main phone -->
+<rect x="475" y="175" width="250" height="450" rx="34" fill="#06324D"/>
+<rect x="495" y="198" width="210" height="404" rx="20" fill="white"/>
+
+<!-- Phone top -->
+<circle cx="600" cy="215" r="5" fill="#9FB4C1"/>
+
+<!-- Search -->
+<rect x="515" y="245" width="170" height="42" rx="12" fill="#EEF5F8"/>
+<circle cx="540" cy="266" r="9" stroke="#00A9D6" stroke-width="3"/>
+<line x1="547" y1="273" x2="554" y2="280" stroke="#00A9D6" stroke-width="3"/>
+<text x="563" y="272" font-family="Arial" font-size="13" fill="#78909C">Search food...</text>
+
+<!-- Food cards -->
+<rect x="515" y="305" width="170" height="72" rx="12" fill="#E8F6FA"/>
+<circle cx="550" cy="341" r="24" fill="#00B8E6"/>
+<path d="M540 344C548 327 560 327 568 344" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<text x="585" y="335" font-family="Arial" font-size="14" font-weight="700" fill="#07304A">Burger House</text>
+<text x="585" y="356" font-family="Arial" font-size="12" fill="#78909C">25 min • 4.8 ★</text>
+
+<rect x="515" y="390" width="170" height="72" rx="12" fill="#F1F7FA"/>
+<circle cx="550" cy="426" r="24" fill="#1677B8"/>
+<path d="M536 426H564M550 412V440" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<text x="585" y="420" font-family="Arial" font-size="14" font-weight="700" fill="#07304A">Pizza Point</text>
+<text x="585" y="441" font-family="Arial" font-size="12" fill="#78909C">30 min • 4.7 ★</text>
+
+<rect x="515" y="475" width="170" height="45" rx="12" fill="#06324D"/>
+<text x="559" y="503" font-family="Arial" font-size="14" font-weight="700" fill="white">ORDER NOW</text>
+
+<!-- Delivery route -->
+<path d="M190 500C270 430 350 440 420 370" stroke="#00A9D6" stroke-width="5" stroke-dasharray="10 12"/>
+<circle cx="185" cy="505" r="18" fill="#00B8E6"/>
+<circle cx="425" cy="365" r="18" fill="#06324D"/>
+
+<!-- Delivery icon -->
+<rect x="225" y="465" width="75" height="52" rx="10" fill="white" stroke="#B4D7E3" stroke-width="3"/>
+<rect x="240" y="480" width="30" height="20" rx="4" fill="#00B8E6"/>
+<circle cx="260" cy="525" r="8" fill="#06324D"/>
+<circle cx="290" cy="525" r="8" fill="#06324D"/>
+
+<!-- Right floating card -->
+<rect x="790" y="275" width="240" height="130" rx="18" fill="white" stroke="#D1E6ED" stroke-width="2"/>
+<circle cx="830" cy="320" r="24" fill="#00B8E6"/>
+<path d="M818 320L827 329L844 310" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="870" y="315" font-family="Arial" font-size="16" font-weight="700" fill="#07304A">Order Confirmed</text>
+<text x="870" y="340" font-family="Arial" font-size="13" fill="#78909C">Your food is on the way</text>
+
+</svg>

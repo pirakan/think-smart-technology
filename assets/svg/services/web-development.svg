@@ -1,0 +1,52 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="webGradient" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Browser frame -->
+    <rect x="9" y="11" width="46" height="40" rx="7"
+          stroke="url(#webGradient)"
+          stroke-width="2.8"/>
+
+    <!-- Browser top bar -->
+    <path d="M10 22H54"
+          stroke="#00C6FB"
+          stroke-width="2"
+          opacity="0.8"/>
+
+    <!-- Browser dots -->
+    <circle cx="17" cy="17" r="1.7" fill="#00C6FB"/>
+    <circle cx="23" cy="17" r="1.7" fill="#0A58CA"/>
+    <circle cx="29" cy="17" r="1.7" fill="#00C6FB"/>
+
+    <!-- Code brackets -->
+    <path d="M24 30L18 36L24 42"
+          stroke="#00C6FB"
+          stroke-width="2.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M40 30L46 36L40 42"
+          stroke="#00C6FB"
+          stroke-width="2.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Code slash -->
+    <path d="M36 28L29 44"
+          stroke="url(#webGradient)"
+          stroke-width="2.8"
+          stroke-linecap="round"/>
+
+    <!-- Subtle technology nodes -->
+    <circle cx="8" cy="36" r="2" fill="#00C6FB" opacity="0.65"/>
+    <circle cx="56" cy="36" r="2" fill="#00C6FB" opacity="0.65"/>
+
+    <path d="M10 36H8M54 36H56"
+          stroke="#00C6FB"
+          stroke-width="1.5"
+          opacity="0.55"/>
+</svg>

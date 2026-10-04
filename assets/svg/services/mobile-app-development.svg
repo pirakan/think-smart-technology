@@ -1,0 +1,67 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="mobileGradient" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Smartphone -->
+    <rect x="18" y="7" width="28" height="50" rx="7"
+          stroke="url(#mobileGradient)"
+          stroke-width="2.8"/>
+
+    <!-- Top speaker -->
+    <path d="M28 13H36"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+    <!-- App interface -->
+    <rect x="24" y="19" width="16" height="11" rx="2.5"
+          stroke="#00C6FB"
+          stroke-width="2"/>
+
+    <circle cx="28" cy="24.5" r="1.5" fill="#00C6FB"/>
+    <path d="M32 23H37"
+          stroke="#00C6FB"
+          stroke-width="1.7"
+          stroke-linecap="round"/>
+
+    <!-- App cards -->
+    <rect x="24" y="34" width="7" height="7" rx="1.5"
+          fill="#00C6FB"
+          fill-opacity="0.12"
+          stroke="#00C6FB"
+          stroke-width="1.5"/>
+
+    <rect x="33" y="34" width="7" height="7" rx="1.5"
+          fill="#0A58CA"
+          fill-opacity="0.12"
+          stroke="#0A58CA"
+          stroke-width="1.5"/>
+
+    <!-- Bottom navigation -->
+    <path d="M27 47H37"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+    <circle cx="32" cy="51" r="1.7"
+            fill="#00C6FB"/>
+
+    <!-- Technology connection nodes -->
+    <circle cx="11" cy="24" r="2"
+            fill="#00C6FB"
+            opacity="0.75"/>
+
+    <circle cx="53" cy="39" r="2"
+            fill="#00C6FB"
+            opacity="0.75"/>
+
+    <path d="M13 24H18M46 39H51"
+          stroke="#00C6FB"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          opacity="0.55"/>
+</svg>

@@ -1,0 +1,743 @@
+<svg width="760" height="620" viewBox="0 0 760 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+
+        <linearGradient
+            id="screenGradient"
+            x1="180"
+            y1="90"
+            x2="590"
+            y2="470"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stop-color="#0A58CA"/>
+            <stop offset="0.55" stop-color="#0E2A47"/>
+            <stop offset="1" stop-color="#06182B"/>
+        </linearGradient>
+
+        <linearGradient
+            id="cyanGradient"
+            x1="300"
+            y1="180"
+            x2="520"
+            y2="400"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+
+        <linearGradient
+            id="glassGradient"
+            x1="120"
+            y1="100"
+            x2="640"
+            y2="500"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stop-color="white" stop-opacity="0.16"/>
+            <stop offset="1" stop-color="white" stop-opacity="0.03"/>
+        </linearGradient>
+
+        <radialGradient
+            id="glow"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(440 300) rotate(90) scale(220)"
+        >
+            <stop stop-color="#00C6FB" stop-opacity="0.28"/>
+            <stop offset="1" stop-color="#00C6FB" stop-opacity="0"/>
+        </radialGradient>
+
+        <filter
+            id="shadow"
+            x="-40%"
+            y="-40%"
+            width="180%"
+            height="180%"
+        >
+            <feDropShadow
+                dx="0"
+                dy="24"
+                stdDeviation="25"
+                flood-color="#000B18"
+                flood-opacity="0.38"
+            />
+        </filter>
+
+        <filter
+            id="softGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%"
+        >
+            <feGaussianBlur stdDeviation="12"/>
+        </filter>
+
+        <filter
+            id="smallGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%"
+        >
+            <feGaussianBlur stdDeviation="5"/>
+        </filter>
+
+        <pattern
+            id="miniGrid"
+            width="28"
+            height="28"
+            patternUnits="userSpaceOnUse"
+        >
+            <path
+                d="M28 0H0V28"
+                stroke="#00C6FB"
+                stroke-opacity="0.10"
+                stroke-width="1"
+            />
+        </pattern>
+
+    </defs>
+
+
+    <!-- =====================================================
+         BACKGROUND GLOW
+    ====================================================== -->
+
+    <ellipse
+        cx="420"
+        cy="320"
+        rx="270"
+        ry="230"
+        fill="url(#glow)"
+    />
+
+
+    <!-- =====================================================
+         FLOATING ORBIT RINGS
+    ====================================================== -->
+
+    <ellipse
+        cx="410"
+        cy="315"
+        rx="300"
+        ry="150"
+        transform="rotate(-18 410 315)"
+        stroke="#00C6FB"
+        stroke-opacity="0.12"
+        stroke-width="2"
+    />
+
+    <ellipse
+        cx="410"
+        cy="315"
+        rx="250"
+        ry="120"
+        transform="rotate(25 410 315)"
+        stroke="#0A58CA"
+        stroke-opacity="0.20"
+        stroke-width="1.5"
+    />
+
+    <ellipse
+        cx="410"
+        cy="315"
+        rx="205"
+        ry="95"
+        transform="rotate(-45 410 315)"
+        stroke="#00C6FB"
+        stroke-opacity="0.09"
+        stroke-width="1"
+    />
+
+
+    <!-- =====================================================
+         LAPTOP / DIGITAL SCREEN
+    ====================================================== -->
+
+    <g filter="url(#shadow)">
+
+        <!-- Main screen -->
+        <rect
+            x="165"
+            y="95"
+            width="470"
+            height="315"
+            rx="22"
+            fill="#071B30"
+            stroke="#00C6FB"
+            stroke-opacity="0.42"
+            stroke-width="2"
+        />
+
+        <!-- Screen inner -->
+        <rect
+            x="180"
+            y="110"
+            width="440"
+            height="285"
+            rx="14"
+            fill="url(#screenGradient)"
+        />
+
+        <!-- Screen grid -->
+        <rect
+            x="180"
+            y="110"
+            width="440"
+            height="285"
+            rx="14"
+            fill="url(#miniGrid)"
+        />
+
+        <!-- Top browser bar -->
+        <rect
+            x="180"
+            y="110"
+            width="440"
+            height="42"
+            rx="14"
+            fill="#061629"
+            fill-opacity="0.72"
+        />
+
+        <circle
+            cx="204"
+            cy="131"
+            r="5"
+            fill="#00C6FB"
+            fill-opacity="0.8"
+        />
+
+        <circle
+            cx="222"
+            cy="131"
+            r="5"
+            fill="#0A58CA"
+            fill-opacity="0.8"
+        />
+
+        <circle
+            cx="240"
+            cy="131"
+            r="5"
+            fill="white"
+            fill-opacity="0.18"
+        />
+
+
+        <!-- Dashboard side -->
+        <rect
+            x="200"
+            y="170"
+            width="82"
+            height="195"
+            rx="10"
+            fill="#061629"
+            fill-opacity="0.75"
+        />
+
+        <rect
+            x="216"
+            y="190"
+            width="48"
+            height="7"
+            rx="3.5"
+            fill="#00C6FB"
+            fill-opacity="0.75"
+        />
+
+        <rect
+            x="216"
+            y="215"
+            width="38"
+            height="6"
+            rx="3"
+            fill="white"
+            fill-opacity="0.18"
+        />
+
+        <rect
+            x="216"
+            y="237"
+            width="48"
+            height="6"
+            rx="3"
+            fill="white"
+            fill-opacity="0.13"
+        />
+
+        <rect
+            x="216"
+            y="259"
+            width="42"
+            height="6"
+            rx="3"
+            fill="white"
+            fill-opacity="0.13"
+        />
+
+        <rect
+            x="216"
+            y="281"
+            width="50"
+            height="6"
+            rx="3"
+            fill="white"
+            fill-opacity="0.13"
+        />
+
+        <rect
+            x="216"
+            y="319"
+            width="48"
+            height="24"
+            rx="6"
+            fill="#0A58CA"
+            fill-opacity="0.55"
+        />
+
+
+        <!-- Main dashboard -->
+        <rect
+            x="300"
+            y="170"
+            width="295"
+            height="82"
+            rx="12"
+            fill="url(#glassGradient)"
+            stroke="white"
+            stroke-opacity="0.07"
+        />
+
+        <rect
+            x="320"
+            y="190"
+            width="90"
+            height="8"
+            rx="4"
+            fill="white"
+            fill-opacity="0.22"
+        />
+
+        <rect
+            x="320"
+            y="211"
+            width="145"
+            height="6"
+            rx="3"
+            fill="white"
+            fill-opacity="0.10"
+        />
+
+        <path
+            d="M490 222
+               C505 205 514 232 530 213
+               C544 196 553 224 568 202"
+            stroke="#00C6FB"
+            stroke-width="3"
+            stroke-linecap="round"
+        />
+
+        <circle
+            cx="568"
+            cy="202"
+            r="5"
+            fill="#00C6FB"
+        />
+
+
+        <!-- Analytics cards -->
+        <rect
+            x="300"
+            y="270"
+            width="138"
+            height="95"
+            rx="12"
+            fill="#061629"
+            fill-opacity="0.58"
+            stroke="white"
+            stroke-opacity="0.06"
+        />
+
+        <rect
+            x="457"
+            y="270"
+            width="138"
+            height="95"
+            rx="12"
+            fill="#061629"
+            fill-opacity="0.58"
+            stroke="white"
+            stroke-opacity="0.06"
+        />
+
+        <!-- Chart 1 -->
+        <path
+            d="M320 338
+               L340 320
+               L360 326
+               L380 303
+               L400 313
+               L420 290"
+            stroke="#00C6FB"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+
+        <circle
+            cx="420"
+            cy="290"
+            r="5"
+            fill="#00C6FB"
+        />
+
+        <!-- Chart 2 -->
+        <rect
+            x="478"
+            y="325"
+            width="14"
+            height="20"
+            rx="3"
+            fill="#0A58CA"
+        />
+
+        <rect
+            x="501"
+            y="308"
+            width="14"
+            height="37"
+            rx="3"
+            fill="#0A58CA"
+        />
+
+        <rect
+            x="524"
+            y="294"
+            width="14"
+            height="51"
+            rx="3"
+            fill="#00C6FB"
+        />
+
+        <rect
+            x="547"
+            y="280"
+            width="14"
+            height="65"
+            rx="3"
+            fill="#00C6FB"
+            fill-opacity="0.75"
+        />
+
+        <!-- Laptop base -->
+        <path
+            d="M135 423
+               H665
+               L620 454
+               H180
+               Z"
+            fill="#081D33"
+            stroke="#00C6FB"
+            stroke-opacity="0.28"
+            stroke-width="2"
+        />
+
+        <path
+            d="M285 438
+               H515"
+            stroke="#00C6FB"
+            stroke-opacity="0.35"
+            stroke-width="4"
+            stroke-linecap="round"
+        />
+
+    </g>
+
+
+    <!-- =====================================================
+         FLOATING SMARTPHONE
+    ====================================================== -->
+
+    <g transform="rotate(12 590 405)" filter="url(#shadow)">
+
+        <rect
+            x="535"
+            y="300"
+            width="145"
+            height="250"
+            rx="25"
+            fill="#061629"
+            stroke="#00C6FB"
+            stroke-opacity="0.45"
+            stroke-width="2"
+        />
+
+        <rect
+            x="548"
+            y="318"
+            width="119"
+            height="215"
+            rx="17"
+            fill="url(#screenGradient)"
+        />
+
+        <!-- Camera notch -->
+        <rect
+            x="590"
+            y="327"
+            width="35"
+            height="7"
+            rx="3.5"
+            fill="#020D1C"
+        />
+
+        <!-- Mobile UI -->
+        <circle
+            cx="575"
+            cy="365"
+            r="18"
+            fill="#00C6FB"
+            fill-opacity="0.14"
+        />
+
+        <path
+            d="M566 365
+               L573 372
+               L586 357"
+            stroke="#00C6FB"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+
+        <rect
+            x="565"
+            y="402"
+            width="86"
+            height="8"
+            rx="4"
+            fill="white"
+            fill-opacity="0.20"
+        />
+
+        <rect
+            x="565"
+            y="420"
+            width="60"
+            height="6"
+            rx="3"
+            fill="white"
+            fill-opacity="0.10"
+        />
+
+        <rect
+            x="565"
+            y="451"
+            width="86"
+            height="48"
+            rx="10"
+            fill="#061629"
+            fill-opacity="0.7"
+        />
+
+        <path
+            d="M578 484
+               L590 470
+               L601 477
+               L613 455
+               L638 467"
+            stroke="#00C6FB"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+
+        <circle
+            cx="638"
+            cy="467"
+            r="4"
+            fill="#00C6FB"
+        />
+
+    </g>
+
+
+    <!-- =====================================================
+         FLOATING CODE CARD
+    ====================================================== -->
+
+    <g transform="rotate(-8 135 385)">
+
+        <rect
+            x="55"
+            y="300"
+            width="170"
+            height="150"
+            rx="18"
+            fill="#071B30"
+            stroke="#00C6FB"
+            stroke-opacity="0.22"
+            stroke-width="1.5"
+        />
+
+        <rect
+            x="55"
+            y="300"
+            width="170"
+            height="35"
+            rx="18"
+            fill="#061629"
+        />
+
+        <circle
+            cx="77"
+            cy="318"
+            r="4"
+            fill="#00C6FB"
+        />
+
+        <circle
+            cx="91"
+            cy="318"
+            r="4"
+            fill="#0A58CA"
+        />
+
+        <circle
+            cx="105"
+            cy="318"
+            r="4"
+            fill="white"
+            fill-opacity="0.18"
+        />
+
+        <text
+            x="75"
+            y="367"
+            fill="#00C6FB"
+            font-family="monospace"
+            font-size="13"
+        >
+            &lt;think&gt;
+        </text>
+
+        <text
+            x="75"
+            y="391"
+            fill="white"
+            fill-opacity="0.68"
+            font-family="monospace"
+            font-size="11"
+        >
+            smart_solution
+        </text>
+
+        <text
+            x="75"
+            y="414"
+            fill="#00C6FB"
+            font-family="monospace"
+            font-size="11"
+        >
+            /&gt;
+        </text>
+
+    </g>
+
+
+    <!-- =====================================================
+         FLOATING CONNECTION NODES
+    ====================================================== -->
+
+    <g>
+
+        <circle
+            cx="108"
+            cy="210"
+            r="18"
+            fill="#00C6FB"
+            fill-opacity="0.08"
+            filter="url(#softGlow)"
+        />
+
+        <circle
+            cx="108"
+            cy="210"
+            r="5"
+            fill="#00C6FB"
+        />
+
+        <circle
+            cx="680"
+            cy="150"
+            r="16"
+            fill="#00C6FB"
+            fill-opacity="0.07"
+            filter="url(#softGlow)"
+        />
+
+        <circle
+            cx="680"
+            cy="150"
+            r="4"
+            fill="#00C6FB"
+        />
+
+        <circle
+            cx="700"
+            cy="535"
+            r="19"
+            fill="#0A58CA"
+            fill-opacity="0.10"
+            filter="url(#softGlow)"
+        />
+
+        <circle
+            cx="700"
+            cy="535"
+            r="5"
+            fill="#0A58CA"
+        />
+
+    </g>
+
+
+    <!-- =====================================================
+         CONNECTING LINES
+    ====================================================== -->
+
+    <g
+        stroke="#00C6FB"
+        stroke-opacity="0.20"
+        stroke-width="1.5"
+    >
+
+        <path d="M108 210L165 240"/>
+        <path d="M680 150L630 190"/>
+        <path d="M700 535L665 505"/>
+
+    </g>
+
+
+    <!-- =====================================================
+         SMALL DIGITAL PARTICLES
+    ====================================================== -->
+
+    <g fill="#00C6FB">
+
+        <circle cx="265" cy="74" r="2"/>
+        <circle cx="330" cy="525" r="2"/>
+        <circle cx="470" cy="85" r="2"/>
+        <circle cx="625" cy="575" r="2"/>
+        <circle cx="725" cy="285" r="2"/>
+        <circle cx="55" cy="530" r="2"/>
+
+    </g>
+
+</svg>

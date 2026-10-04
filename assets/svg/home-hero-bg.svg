@@ -1,0 +1,344 @@
+<svg width="1920" height="900" viewBox="0 0 1920 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+
+        <!-- Main background -->
+        <linearGradient
+            id="backgroundGradient"
+            x1="0"
+            y1="0"
+            x2="1920"
+            y2="900"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0" stop-color="#06182B"/>
+            <stop offset="0.48" stop-color="#0E2A47"/>
+            <stop offset="1" stop-color="#061426"/>
+        </linearGradient>
+
+        <!-- Blue glow -->
+        <radialGradient
+            id="blueGlow"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(1510 330) rotate(90) scale(420)"
+        >
+            <stop offset="0" stop-color="#0A58CA" stop-opacity="0.42"/>
+            <stop offset="0.48" stop-color="#0A58CA" stop-opacity="0.16"/>
+            <stop offset="1" stop-color="#0A58CA" stop-opacity="0"/>
+        </radialGradient>
+
+        <!-- Cyan glow -->
+        <radialGradient
+            id="cyanGlow"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(1680 150) rotate(90) scale(270)"
+        >
+            <stop offset="0" stop-color="#00C6FB" stop-opacity="0.32"/>
+            <stop offset="1" stop-color="#00C6FB" stop-opacity="0"/>
+        </radialGradient>
+
+        <!-- Grid fade -->
+        <linearGradient
+            id="gridFade"
+            x1="960"
+            y1="0"
+            x2="960"
+            y2="900"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0" stop-color="#00C6FB" stop-opacity="0.12"/>
+            <stop offset="1" stop-color="#00C6FB" stop-opacity="0"/>
+        </linearGradient>
+
+        <!-- Line glow -->
+        <filter
+            id="lineGlow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%"
+        >
+            <feGaussianBlur stdDeviation="4"/>
+        </filter>
+
+        <!-- Soft blur -->
+        <filter
+            id="softBlur"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%"
+        >
+            <feGaussianBlur stdDeviation="35"/>
+        </filter>
+
+        <!-- Grid pattern -->
+        <pattern
+            id="grid"
+            width="70"
+            height="70"
+            patternUnits="userSpaceOnUse"
+        >
+            <path
+                d="M70 0H0V70"
+                stroke="#00C6FB"
+                stroke-opacity="0.075"
+                stroke-width="1"
+            />
+        </pattern>
+
+    </defs>
+
+
+    <!-- =====================================================
+         BASE
+    ====================================================== -->
+
+    <rect
+        width="1920"
+        height="900"
+        fill="url(#backgroundGradient)"
+    />
+
+
+    <!-- =====================================================
+         GLOW AREAS
+    ====================================================== -->
+
+    <rect
+        width="1920"
+        height="900"
+        fill="url(#blueGlow)"
+    />
+
+    <rect
+        width="1920"
+        height="900"
+        fill="url(#cyanGlow)"
+    />
+
+
+    <!-- =====================================================
+         FUTURISTIC GRID
+    ====================================================== -->
+
+    <rect
+        x="760"
+        y="0"
+        width="1160"
+        height="900"
+        fill="url(#grid)"
+    />
+
+    <rect
+        x="760"
+        y="0"
+        width="1160"
+        height="900"
+        fill="url(#gridFade)"
+    />
+
+
+    <!-- =====================================================
+         LARGE TECHNOLOGY CIRCLES
+    ====================================================== -->
+
+    <circle
+        cx="1500"
+        cy="380"
+        r="300"
+        stroke="#00C6FB"
+        stroke-opacity="0.09"
+        stroke-width="1"
+    />
+
+    <circle
+        cx="1500"
+        cy="380"
+        r="220"
+        stroke="#00C6FB"
+        stroke-opacity="0.11"
+        stroke-width="1"
+    />
+
+    <circle
+        cx="1500"
+        cy="380"
+        r="140"
+        stroke="#00C6FB"
+        stroke-opacity="0.13"
+        stroke-width="1"
+    />
+
+    <circle
+        cx="1500"
+        cy="380"
+        r="75"
+        stroke="#00C6FB"
+        stroke-opacity="0.16"
+        stroke-width="1"
+    />
+
+
+    <!-- =====================================================
+         DIGITAL CONNECTION LINES
+    ====================================================== -->
+
+    <g
+        stroke="#00C6FB"
+        stroke-opacity="0.18"
+        stroke-width="1"
+    >
+
+        <path d="M1110 170L1340 310L1500 210L1710 350L1870 260"/>
+
+        <path d="M1080 570L1280 450L1460 560L1630 440L1880 540"/>
+
+        <path d="M1220 90L1420 220L1580 120L1800 230"/>
+
+        <path d="M1350 730L1510 610L1700 720L1880 620"/>
+
+    </g>
+
+
+    <!-- =====================================================
+         CONNECTION NODES
+    ====================================================== -->
+
+    <g fill="#00C6FB">
+
+        <circle cx="1110" cy="170" r="3"/>
+        <circle cx="1340" cy="310" r="4"/>
+        <circle cx="1500" cy="210" r="3"/>
+        <circle cx="1710" cy="350" r="4"/>
+        <circle cx="1870" cy="260" r="3"/>
+
+        <circle cx="1080" cy="570" r="3"/>
+        <circle cx="1280" cy="450" r="4"/>
+        <circle cx="1460" cy="560" r="3"/>
+        <circle cx="1630" cy="440" r="4"/>
+        <circle cx="1880" cy="540" r="3"/>
+
+        <circle cx="1220" cy="90" r="3"/>
+        <circle cx="1420" cy="220" r="4"/>
+        <circle cx="1580" cy="120" r="3"/>
+        <circle cx="1800" cy="230" r="4"/>
+
+    </g>
+
+
+    <!-- =====================================================
+         GLOWING NODES
+    ====================================================== -->
+
+    <g
+        fill="#00C6FB"
+        opacity="0.35"
+        filter="url(#lineGlow)"
+    >
+
+        <circle cx="1340" cy="310" r="14"/>
+        <circle cx="1710" cy="350" r="15"/>
+        <circle cx="1280" cy="450" r="14"/>
+        <circle cx="1630" cy="440" r="15"/>
+
+    </g>
+
+
+    <!-- =====================================================
+         CIRCUIT-LIKE DETAILS
+    ====================================================== -->
+
+    <g
+        stroke="#0A58CA"
+        stroke-opacity="0.25"
+        stroke-width="2"
+        stroke-linecap="round"
+    >
+
+        <path d="M1180 700H1320V630H1390"/>
+        <path d="M1570 690H1690V620H1770"/>
+        <path d="M1170 250H1250V190H1310"/>
+        <path d="M1740 510H1820V450H1890"/>
+
+    </g>
+
+
+    <g fill="#0A58CA" fill-opacity="0.65">
+
+        <rect x="1314" y="624" width="8" height="8" rx="2"/>
+        <rect x="1764" y="614" width="8" height="8" rx="2"/>
+        <rect x="1304" y="184" width="8" height="8" rx="2"/>
+        <rect x="1884" y="444" width="8" height="8" rx="2"/>
+
+    </g>
+
+
+    <!-- =====================================================
+         ABSTRACT TECH WAVE
+    ====================================================== -->
+
+    <path
+        d="M960 810
+           C1150 650 1270 700 1400 760
+           C1530 820 1660 850 1920 670"
+        stroke="#00C6FB"
+        stroke-opacity="0.09"
+        stroke-width="2"
+        fill="none"
+    />
+
+    <path
+        d="M1040 850
+           C1200 730 1310 750 1430 805
+           C1580 870 1720 870 1920 740"
+        stroke="#0A58CA"
+        stroke-opacity="0.13"
+        stroke-width="1"
+        fill="none"
+    />
+
+
+    <!-- =====================================================
+         LEFT SIDE SUBTLE TEXTURE
+    ====================================================== -->
+
+    <circle
+        cx="160"
+        cy="160"
+        r="130"
+        fill="#0A58CA"
+        fill-opacity="0.035"
+        filter="url(#softBlur)"
+    />
+
+    <circle
+        cx="380"
+        cy="720"
+        r="180"
+        fill="#00C6FB"
+        fill-opacity="0.025"
+        filter="url(#softBlur)"
+    />
+
+
+    <!-- =====================================================
+         EDGE VIGNETTE
+    ====================================================== -->
+
+    <rect
+        width="1920"
+        height="900"
+        fill="none"
+        stroke="#020C18"
+        stroke-opacity="0.20"
+        stroke-width="30"
+    />
+
+</svg>

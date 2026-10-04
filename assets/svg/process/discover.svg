@@ -1,0 +1,58 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="processDiscover"
+                        x1="10" y1="8"
+                        x2="54" y2="56">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Search circle -->
+    <circle cx="28" cy="28" r="15"
+            fill="#F4F7FB"
+            stroke="url(#processDiscover)"
+            stroke-width="2.5"/>
+
+    <!-- Magnifying glass -->
+    <circle cx="27" cy="27" r="7"
+            stroke="#0E2A47"
+            stroke-width="2"/>
+
+    <path d="M32 32L38 38"
+          stroke="#00C6FB"
+          stroke-width="2.5"
+          stroke-linecap="round"/>
+
+    <!-- Digital nodes -->
+    <circle cx="14" cy="14" r="2"
+            fill="#00C6FB"/>
+
+    <circle cx="47" cy="17" r="2"
+            fill="#00C6FB"/>
+
+    <circle cx="49" cy="45" r="2"
+            fill="#0A58CA"/>
+
+    <circle cx="17" cy="48" r="2"
+            fill="#0A58CA"/>
+
+    <!-- Connection lines -->
+    <path d="M15.5 15.5L20 20"
+          stroke="#00C6FB"
+          stroke-width="1.4"
+          opacity="0.65"/>
+
+    <path d="M45.5 18.5L39 22"
+          stroke="#00C6FB"
+          stroke-width="1.4"
+          opacity="0.65"/>
+
+    <path d="M47.5 43.5L40 38"
+          stroke="#0A58CA"
+          stroke-width="1.4"
+          opacity="0.55"/>
+
+</svg>

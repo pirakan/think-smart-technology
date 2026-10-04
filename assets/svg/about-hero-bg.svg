@@ -1,0 +1,69 @@
+<svg width="1600" height="720" viewBox="0 0 1600 720"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="aboutGrid" x1="0" y1="0" x2="1600" y2="720">
+            <stop stop-color="#F4F7FB"/>
+            <stop offset="0.55" stop-color="#FFFFFF"/>
+            <stop offset="1" stop-color="#EAF7FC"/>
+        </linearGradient>
+
+        <radialGradient id="aboutGlow">
+            <stop stop-color="#00C6FB" stop-opacity="0.18"/>
+            <stop offset="1" stop-color="#00C6FB" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+
+    <rect width="1600" height="720" fill="url(#aboutGrid)"/>
+
+    <!-- subtle grid -->
+    <g stroke="#0A58CA" stroke-opacity="0.055">
+        <path d="M0 120H1600"/>
+        <path d="M0 240H1600"/>
+        <path d="M0 360H1600"/>
+        <path d="M0 480H1600"/>
+        <path d="M0 600H1600"/>
+
+        <path d="M120 0V720"/>
+        <path d="M280 0V720"/>
+        <path d="M440 0V720"/>
+        <path d="M600 0V720"/>
+        <path d="M760 0V720"/>
+        <path d="M920 0V720"/>
+        <path d="M1080 0V720"/>
+        <path d="M1240 0V720"/>
+        <path d="M1400 0V720"/>
+        <path d="M1560 0V720"/>
+    </g>
+
+    <!-- cyan glow -->
+    <circle cx="1260" cy="300" r="330" fill="url(#aboutGlow)"/>
+
+    <!-- technology connection lines -->
+    <g stroke="#0A58CA" stroke-opacity="0.13" stroke-width="1.5">
+        <path d="M950 130L1080 220L1200 180L1320 270L1490 210"/>
+        <path d="M980 470L1110 390L1240 450L1390 350L1560 410"/>
+        <path d="M1100 70L1190 140L1300 110"/>
+    </g>
+
+    <!-- nodes -->
+    <g fill="#00C6FB" fill-opacity="0.55">
+        <circle cx="1080" cy="220" r="4"/>
+        <circle cx="1200" cy="180" r="4"/>
+        <circle cx="1320" cy="270" r="5"/>
+        <circle cx="1110" cy="390" r="4"/>
+        <circle cx="1240" cy="450" r="4"/>
+        <circle cx="1390" cy="350" r="5"/>
+    </g>
+
+    <!-- abstract rings -->
+    <circle cx="1280" cy="310" r="150"
+            stroke="#0A58CA"
+            stroke-opacity="0.07"/>
+
+    <circle cx="1280" cy="310" r="205"
+            stroke="#00C6FB"
+            stroke-opacity="0.07"
+            stroke-dasharray="5 12"/>
+
+</svg>

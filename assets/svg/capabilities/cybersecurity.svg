@@ -1,0 +1,60 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="capCyber" x1="10" y1="8" x2="54" y2="56">
+            <stop stop-color="#00C6FB"/>
+            <stop offset="1" stop-color="#0A58CA"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Shield -->
+    <path d="M32 8L49 14V28
+             C49 39.5 42.5 49 32 55
+             C21.5 49 15 39.5 15 28V14L32 8Z"
+          fill="#0E2A47"
+          stroke="url(#capCyber)"
+          stroke-width="2.8"
+          stroke-linejoin="round"/>
+
+    <!-- Inner shield -->
+    <path d="M32 17L42 20.5V29
+             C42 36.5 38.2 42.5 32 46
+             C25.8 42.5 22 36.5 22 29V20.5L32 17Z"
+          stroke="#00C6FB"
+          stroke-width="1.6"
+          opacity="0.65"/>
+
+    <!-- Lock -->
+    <rect x="27" y="29" width="10" height="9" rx="2"
+          fill="#0E2A47"
+          stroke="#00C6FB"
+          stroke-width="1.8"/>
+
+    <path d="M29 29V26.5
+             C29 24.5 30.3 23 32 23
+             C33.7 23 35 24.5 35 26.5V29"
+          stroke="#00C6FB"
+          stroke-width="1.8"
+          stroke-linecap="round"/>
+
+    <!-- Keyhole -->
+    <circle cx="32" cy="33" r="1.5"
+            fill="#00C6FB"/>
+
+    <path d="M32 34.5V36"
+          stroke="#00C6FB"
+          stroke-width="1.5"
+          stroke-linecap="round"/>
+
+    <!-- Security nodes -->
+    <circle cx="9" cy="25" r="2"
+            fill="#00C6FB"/>
+
+    <circle cx="55" cy="25" r="2"
+            fill="#00C6FB"/>
+
+    <path d="M11 25H16M48 25H53"
+          stroke="#00C6FB"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity="0.65"/>
+</svg>

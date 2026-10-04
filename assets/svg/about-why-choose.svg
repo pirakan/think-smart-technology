@@ -1,0 +1,182 @@
+<svg width="620" height="500" viewBox="0 0 620 500"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="whyPanel"
+                        x1="110" y1="70"
+                        x2="520" y2="430">
+            <stop stop-color="#0A58CA"/>
+            <stop offset="1" stop-color="#00C6FB"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background circles -->
+
+    <circle cx="310" cy="250" r="175"
+            fill="#00C6FB"
+            fill-opacity="0.06"/>
+
+    <circle cx="310" cy="250" r="135"
+            stroke="#00C6FB"
+            stroke-width="1"
+            stroke-opacity="0.18"/>
+
+    <circle cx="310" cy="250" r="95"
+            stroke="#FFFFFF"
+            stroke-width="1"
+            stroke-opacity="0.16"/>
+
+
+    <!-- Central technology core -->
+
+    <rect x="184" y="115"
+          width="252"
+          height="230"
+          rx="24"
+          fill="url(#whyPanel)"
+          fill-opacity="0.92"/>
+
+    <rect x="204" y="137"
+          width="212"
+          height="186"
+          rx="16"
+          fill="#FFFFFF"
+          fill-opacity="0.97"/>
+
+
+    <!-- Header -->
+
+    <circle cx="225" cy="160" r="5"
+            fill="#00C6FB"/>
+
+    <circle cx="243" cy="160" r="5"
+            fill="#0A58CA"/>
+
+    <circle cx="261" cy="160" r="5"
+            fill="#0E2A47"
+            fill-opacity="0.4"/>
+
+    <path d="M204 180H416"
+          stroke="#DCE8F0"/>
+
+
+    <!-- Main screen -->
+
+    <rect x="228" y="200"
+          width="164"
+          height="82"
+          rx="12"
+          fill="#EAF7FC"/>
+
+    <circle cx="310" cy="241"
+            r="29"
+            stroke="#0A58CA"
+            stroke-width="2"/>
+
+    <path d="M291 249L303 237L312 244L331 224"
+          stroke="#00C6FB"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <circle cx="291" cy="249" r="4"
+            fill="#00C6FB"/>
+
+    <circle cx="331" cy="224" r="4"
+            fill="#0A58CA"/>
+
+
+    <!-- Bottom cards -->
+
+    <rect x="228" y="294"
+          width="72"
+          height="10"
+          rx="5"
+          fill="#0E2A47"/>
+
+    <rect x="309" y="294"
+          width="83"
+          height="10"
+          rx="5"
+          fill="#B6C8D4"/>
+
+
+    <!-- Connected nodes -->
+
+    <circle cx="112" cy="154" r="7"
+            fill="#00C6FB"/>
+
+    <circle cx="508" cy="126" r="7"
+            fill="#0A58CA"/>
+
+    <circle cx="528" cy="350" r="7"
+            fill="#00C6FB"/>
+
+    <circle cx="91" cy="360" r="7"
+            fill="#FFFFFF"/>
+
+
+    <!-- Connection lines -->
+
+    <path d="M119 154L184 184"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-dasharray="6 7"
+          opacity="0.8"/>
+
+    <path d="M508 126L436 172"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-dasharray="6 7"
+          opacity="0.65"/>
+
+    <path d="M528 350L436 315"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-dasharray="6 7"
+          opacity="0.75"/>
+
+    <path d="M91 360L184 320"
+          stroke="#FFFFFF"
+          stroke-width="2"
+          stroke-dasharray="6 7"
+          opacity="0.35"/>
+
+
+    <!-- Small floating panels -->
+
+    <rect x="55" y="190"
+          width="95"
+          height="64"
+          rx="12"
+          fill="#FFFFFF"
+          fill-opacity="0.10"
+          stroke="#00C6FB"
+          stroke-opacity="0.35"/>
+
+    <rect x="475" y="210"
+          width="95"
+          height="64"
+          rx="12"
+          fill="#FFFFFF"
+          fill-opacity="0.10"
+          stroke="#00C6FB"
+          stroke-opacity="0.35"/>
+
+    <path d="M77 218H122"
+          stroke="#FFFFFF"
+          stroke-width="5"
+          stroke-linecap="round"/>
+
+    <path d="M77 232H108"
+          stroke="#00C6FB"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <path d="M497 238L513 223L525 234L549 215"
+          stroke="#00C6FB"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+</svg>

@@ -1,0 +1,67 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="700" rx="24" fill="#EEF8FC"/>
+
+<circle cx="1080" cy="100" r="190" fill="#D8F1F8"/>
+<circle cx="100" cy="620" r="150" fill="#DCEAF2"/>
+
+<!-- Browser -->
+<rect x="120" y="95" width="960" height="510" rx="22" fill="white" stroke="#C5DFE8" stroke-width="3"/>
+
+<!-- Browser header -->
+<rect x="120" y="95" width="960" height="55" rx="22" fill="#06324D"/>
+<circle cx="155" cy="122" r="7" fill="#D5E4EA"/>
+<circle cx="180" cy="122" r="7" fill="#D5E4EA"/>
+<circle cx="205" cy="122" r="7" fill="#D5E4EA"/>
+
+<rect x="280" y="110" width="450" height="25" rx="12" fill="#0C4664"/>
+<text x="315" y="128" font-family="Arial" font-size="11" fill="#9EBBC8">www.businesscompany.com</text>
+
+<!-- Navbar -->
+<circle cx="170" cy="190" r="18" fill="#00B8E6"/>
+<text x="200" y="197" font-family="Arial" font-size="17" font-weight="700" fill="#07304A">SMART BUSINESS</text>
+
+<text x="730" y="195" font-family="Arial" font-size="13" fill="#527086">Home</text>
+<text x="790" y="195" font-family="Arial" font-size="13" fill="#527086">About</text>
+<text x="845" y="195" font-family="Arial" font-size="13" fill="#527086">Services</text>
+<text x="920" y="195" font-family="Arial" font-size="13" fill="#527086">Contact</text>
+
+<!-- Hero -->
+<rect x="155" y="235" width="890" height="205" rx="20" fill="#EAF7FB"/>
+
+<text x="205" y="300" font-family="Arial" font-size="16" font-weight="700" fill="#00A4D1">DIGITAL BUSINESS</text>
+<text x="205" y="340" font-family="Arial" font-size="34" font-weight="700" fill="#06324D">Grow Your Business</text>
+<text x="205" y="375" font-family="Arial" font-size="34" font-weight="700" fill="#06324D">With Technology.</text>
+
+<rect x="205" y="395" width="135" height="32" rx="8" fill="#00A9D6"/>
+<text x="235" y="416" font-family="Arial" font-size="12" font-weight="700" fill="white">GET STARTED</text>
+
+<!-- Right visual -->
+<rect x="730" y="265" width="245" height="135" rx="18" fill="#06324D"/>
+<rect x="750" y="285" width="90" height="90" rx="12" fill="#0A5378"/>
+<path d="M770 350L790 330L805 342L825 315" stroke="#00D2F5" stroke-width="5" fill="none"/>
+<circle cx="770" cy="350" r="5" fill="#00D2F5"/>
+<circle cx="825" cy="315" r="5" fill="#00D2F5"/>
+
+<text x="860" y="320" font-family="Arial" font-size="12" fill="#A9C4D2">Growth</text>
+<text x="860" y="350" font-family="Arial" font-size="25" font-weight="700" fill="white">+48%</text>
+
+<!-- Services -->
+<text x="160" y="485" font-family="Arial" font-size="17" font-weight="700" fill="#07304A">Our Services</text>
+
+<rect x="160" y="510" width="200" height="65" rx="14" fill="#F1F7FA"/>
+<circle cx="195" cy="543" r="17" fill="#00B8E6"/>
+<text x="225" y="540" font-family="Arial" font-size="13" font-weight="700" fill="#07304A">Web Development</text>
+<text x="225" y="558" font-family="Arial" font-size="11" fill="#78909C">Modern websites</text>
+
+<rect x="380" y="510" width="200" height="65" rx="14" fill="#F1F7FA"/>
+<circle cx="415" cy="543" r="17" fill="#1677B8"/>
+<text x="445" y="540" font-family="Arial" font-size="13" font-weight="700" fill="#07304A">Digital Marketing</text>
+<text x="445" y="558" font-family="Arial" font-size="11" fill="#78909C">Reach your audience</text>
+
+<rect x="600" y="510" width="200" height="65" rx="14" fill="#F1F7FA"/>
+<circle cx="635" cy="543" r="17" fill="#00B8E6"/>
+<text x="665" y="540" font-family="Arial" font-size="13" font-weight="700" fill="#07304A">Cloud Solutions</text>
+<text x="665" y="558" font-family="Arial" font-size="11" fill="#78909C">Secure infrastructure</text>
+
+</svg>

@@ -1,0 +1,155 @@
+<svg width="640" height="400" viewBox="0 0 640 400" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="mobileBg" x1="80" y1="30" x2="560" y2="370">
+            <stop stop-color="#0E2A47"/>
+            <stop offset="0.55" stop-color="#0A58CA"/>
+            <stop offset="1" stop-color="#00C6FB"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect x="20" y="20" width="600" height="360" rx="28"
+          fill="#F4F7FB"/>
+
+    <rect x="20" y="20" width="600" height="360" rx="28"
+          stroke="#D8E6F0"
+          stroke-width="2"/>
+
+    <!-- Decorative glow -->
+    <circle cx="555" cy="75" r="90"
+            fill="#00C6FB"
+            fill-opacity="0.08"/>
+
+    <circle cx="75" cy="325" r="100"
+            fill="#0A58CA"
+            fill-opacity="0.06"/>
+
+    <!-- Phone -->
+    <rect x="228" y="48" width="184" height="304" rx="28"
+          fill="#0E2A47"
+          stroke="url(#mobileBg)"
+          stroke-width="3"/>
+
+    <!-- Phone screen -->
+    <rect x="244" y="78" width="152" height="238" rx="16"
+          fill="#FFFFFF"/>
+
+    <!-- Camera / speaker -->
+    <rect x="296" y="61" width="48" height="7" rx="3.5"
+          fill="#071B31"/>
+
+    <!-- App header -->
+    <circle cx="268" cy="103" r="14"
+            fill="#E8F7FC"/>
+
+    <circle cx="268" cy="103" r="7"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <rect x="291" y="97" width="62" height="8" rx="4"
+          fill="#0E2A47"/>
+
+    <!-- App hero -->
+    <rect x="260" y="128" width="120" height="58" rx="12"
+          fill="#F0F8FC"/>
+
+    <circle cx="320" cy="157" r="21"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <path d="M306 165L316 154L323 160L337 143"
+          stroke="#0A58CA"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- App content -->
+    <rect x="260" y="201" width="78" height="8" rx="4"
+          fill="#0E2A47"/>
+
+    <rect x="260" y="217" width="105" height="6" rx="3"
+          fill="#B7C8D5"/>
+
+    <rect x="260" y="229" width="91" height="6" rx="3"
+          fill="#D0DCE4"/>
+
+    <!-- App cards -->
+    <rect x="260" y="250" width="54" height="43" rx="8"
+          fill="#EAF7FC"/>
+
+    <rect x="322" y="250" width="58" height="43" rx="8"
+          fill="#0A58CA"/>
+
+    <circle cx="287" cy="271" r="9"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <path d="M276 279L284 272L289 276L298 266"
+          stroke="#0A58CA"
+          stroke-width="1.8"
+          stroke-linecap="round"/>
+
+    <path d="M336 274H365"
+          stroke="#FFFFFF"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <!-- Floating mobile UI panels -->
+    <rect x="105" y="105" width="92" height="72" rx="14"
+          fill="#FFFFFF"
+          stroke="#D6E7F1"
+          stroke-width="2"/>
+
+    <circle cx="129" cy="130" r="9"
+            fill="#00C6FB"
+            fill-opacity="0.15"
+            stroke="#00C6FB"
+            stroke-width="1.5"/>
+
+    <rect x="146" y="125" width="31" height="6" rx="3"
+          fill="#0E2A47"/>
+
+    <rect x="122" y="151" width="55" height="7" rx="3.5"
+          fill="#D5E2EA"/>
+
+    <!-- Right floating panel -->
+    <rect x="443" y="218" width="92" height="72" rx="14"
+          fill="#FFFFFF"
+          stroke="#D6E7F1"
+          stroke-width="2"/>
+
+    <path d="M462 257L474 245L484 253L504 233"
+          stroke="#0A58CA"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <circle cx="462" cy="257" r="3"
+            fill="#00C6FB"/>
+
+    <circle cx="504" cy="233" r="3"
+            fill="#00C6FB"/>
+
+    <!-- Connection lines -->
+    <path d="M197 141H228"
+          stroke="#00C6FB"
+          stroke-width="1.5"
+          stroke-dasharray="4 5"
+          opacity="0.7"/>
+
+    <path d="M412 254H443"
+          stroke="#0A58CA"
+          stroke-width="1.5"
+          stroke-dasharray="4 5"
+          opacity="0.7"/>
+
+    <!-- Floating nodes -->
+    <circle cx="75" cy="95" r="5"
+            fill="#00C6FB"/>
+
+    <circle cx="565" cy="185" r="5"
+            fill="#0A58CA"/>
+
+</svg>

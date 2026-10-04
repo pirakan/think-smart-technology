@@ -1,0 +1,143 @@
+<svg width="640" height="520" viewBox="0 0 640 520"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="panel" x1="120" y1="70" x2="520" y2="440">
+            <stop stop-color="#0E2A47"/>
+            <stop offset="0.58" stop-color="#0A58CA"/>
+            <stop offset="1" stop-color="#00C6FB"/>
+        </linearGradient>
+
+        <linearGradient id="screen" x1="130" y1="130" x2="510" y2="360">
+            <stop stop-color="#FFFFFF"/>
+            <stop offset="1" stop-color="#EAF7FC"/>
+        </linearGradient>
+    </defs>
+
+    <!-- background circles -->
+    <circle cx="505" cy="115" r="100"
+            fill="#00C6FB"
+            fill-opacity="0.08"/>
+
+    <circle cx="115" cy="420" r="120"
+            fill="#0A58CA"
+            fill-opacity="0.06"/>
+
+    <!-- Main dashboard -->
+    <rect x="100" y="82" width="440" height="300" rx="24"
+          fill="url(#panel)"/>
+
+    <rect x="118" y="105" width="404" height="250" rx="17"
+          fill="#FFFFFF"/>
+
+    <!-- top bar -->
+    <circle cx="143" cy="128" r="5" fill="#00C6FB"/>
+    <circle cx="161" cy="128" r="5" fill="#0A58CA"/>
+    <circle cx="179" cy="128" r="5" fill="#0E2A47" fill-opacity="0.4"/>
+
+    <path d="M118 151H522"
+          stroke="#DCE8F0"/>
+
+    <!-- dashboard heading -->
+    <rect x="145" y="177" width="150" height="12" rx="6"
+          fill="#0E2A47"/>
+
+    <rect x="145" y="200" width="205" height="7" rx="3.5"
+          fill="#AFC2CF"/>
+
+    <!-- chart -->
+    <rect x="145" y="228" width="210" height="88" rx="13"
+          fill="url(#screen)"/>
+
+    <path d="M166 293L196 270L221 281L254 246L288 263L329 239"
+          stroke="#0A58CA"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <circle cx="166" cy="293" r="5" fill="#00C6FB"/>
+    <circle cx="329" cy="239" r="5" fill="#00C6FB"/>
+
+    <!-- analytics card -->
+    <rect x="377" y="177" width="112" height="139" rx="14"
+          fill="#0E2A47"/>
+
+    <circle cx="433" cy="232" r="32"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <path d="M413 244L426 230L437 238L458 213"
+          stroke="#00C6FB"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <rect x="399" y="275" width="67" height="7" rx="3.5"
+          fill="#FFFFFF"
+          fill-opacity="0.7"/>
+
+    <!-- bottom cards -->
+    <rect x="145" y="329" width="92" height="12" rx="6"
+          fill="#E5EFF5"/>
+
+    <rect x="251" y="329" width="92" height="12" rx="6"
+          fill="#E5EFF5"/>
+
+    <rect x="377" y="329" width="112" height="12" rx="6"
+          fill="#E5EFF5"/>
+
+    <!-- floating mobile -->
+    <rect x="430" y="350" width="118" height="142" rx="21"
+          fill="#0E2A47"
+          stroke="#00C6FB"
+          stroke-opacity="0.6"
+          stroke-width="2"/>
+
+    <rect x="442" y="377" width="94" height="91" rx="12"
+          fill="#FFFFFF"/>
+
+    <rect x="469" y="360" width="40" height="6" rx="3"
+          fill="#06172A"/>
+
+    <circle cx="489" cy="415" r="21"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <path d="M477 423L485 415L491 420L503 406"
+          stroke="#0A58CA"
+          stroke-width="2.5"
+          stroke-linecap="round"/>
+
+    <!-- cloud -->
+    <path d="M122 390
+             C122 370 138 354 158 354
+             C171 354 183 361 190 372
+             C196 366 205 362 216 362
+             C236 362 252 378 252 398
+             C252 400 252 402 251 404
+             H145
+             C132 404 122 398 122 390Z"
+          fill="#FFFFFF"
+          stroke="#0A58CA"
+          stroke-width="2"/>
+
+    <circle cx="143" cy="435" r="5" fill="#00C6FB"/>
+    <circle cx="162" cy="435" r="5" fill="#0A58CA"/>
+    <circle cx="181" cy="435" r="5" fill="#00C6FB"/>
+
+    <!-- connection lines -->
+    <path d="M540 300L575 275"
+          stroke="#00C6FB"
+          stroke-width="2"
+          stroke-dasharray="5 6"/>
+
+    <path d="M250 404L300 455"
+          stroke="#0A58CA"
+          stroke-width="2"
+          stroke-dasharray="5 6"/>
+
+    <!-- nodes -->
+    <circle cx="575" cy="275" r="5" fill="#00C6FB"/>
+    <circle cx="300" cy="455" r="5" fill="#0A58CA"/>
+
+</svg>

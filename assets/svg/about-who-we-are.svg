@@ -1,0 +1,212 @@
+<svg width="640" height="500" viewBox="0 0 640 500"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="whoPanel"
+                        x1="90" y1="70"
+                        x2="550" y2="430">
+            <stop stop-color="#0E2A47"/>
+            <stop offset="0.58" stop-color="#0A58CA"/>
+            <stop offset="1" stop-color="#00C6FB"/>
+        </linearGradient>
+
+        <linearGradient id="whoScreen"
+                        x1="130" y1="120"
+                        x2="500" y2="340">
+            <stop stop-color="#FFFFFF"/>
+            <stop offset="1" stop-color="#EAF7FC"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Decorative circles -->
+
+    <circle cx="520" cy="95" r="92"
+            fill="#00C6FB"
+            fill-opacity="0.08"/>
+
+    <circle cx="105" cy="410" r="110"
+            fill="#0A58CA"
+            fill-opacity="0.06"/>
+
+
+    <!-- Main laptop -->
+
+    <rect x="92" y="62"
+          width="456"
+          height="292"
+          rx="22"
+          fill="url(#whoPanel)"/>
+
+    <rect x="111" y="84"
+          width="418"
+          height="250"
+          rx="15"
+          fill="#FFFFFF"/>
+
+
+    <!-- Browser bar -->
+
+    <circle cx="136" cy="108" r="5"
+            fill="#00C6FB"/>
+
+    <circle cx="154" cy="108" r="5"
+            fill="#0A58CA"/>
+
+    <circle cx="172" cy="108" r="5"
+            fill="#0E2A47"
+            fill-opacity="0.4"/>
+
+    <path d="M111 130H529"
+          stroke="#DCE8F0"/>
+
+
+    <!-- Dashboard title -->
+
+    <rect x="140" y="158"
+          width="155"
+          height="12"
+          rx="6"
+          fill="#0E2A47"/>
+
+    <rect x="140" y="181"
+          width="205"
+          height="7"
+          rx="3.5"
+          fill="#B5C7D3"/>
+
+
+    <!-- Central technology diagram -->
+
+    <rect x="140" y="214"
+          width="225"
+          height="88"
+          rx="13"
+          fill="url(#whoScreen)"/>
+
+    <circle cx="252" cy="258"
+            r="30"
+            stroke="#0A58CA"
+            stroke-width="2"/>
+
+    <path d="M228 270L243 253L254 262L279 238"
+          stroke="#00C6FB"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <circle cx="228" cy="270" r="5"
+            fill="#00C6FB"/>
+
+    <circle cx="279" cy="238" r="5"
+            fill="#0A58CA"/>
+
+
+    <!-- Right analytics panel -->
+
+    <rect x="388" y="158"
+          width="112"
+          height="144"
+          rx="14"
+          fill="#0E2A47"/>
+
+    <circle cx="444" cy="213"
+            r="31"
+            stroke="#00C6FB"
+            stroke-width="2"/>
+
+    <path d="M425 226L438 211L447 218L467 197"
+          stroke="#00C6FB"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <rect x="414" y="258"
+          width="60"
+          height="7"
+          rx="3.5"
+          fill="#FFFFFF"
+          fill-opacity="0.7"/>
+
+
+    <!-- Laptop base -->
+
+    <path d="M66 354H574L545 382H95L66 354Z"
+          fill="#0E2A47"/>
+
+    <rect x="265" y="360"
+          width="110"
+          height="7"
+          rx="3.5"
+          fill="#00C6FB"
+          fill-opacity="0.8"/>
+
+
+    <!-- Floating solution cards -->
+
+    <rect x="58" y="154"
+          width="105"
+          height="74"
+          rx="13"
+          fill="#FFFFFF"
+          stroke="#D6E6EF"
+          stroke-width="2"/>
+
+    <circle cx="84" cy="180"
+            r="10"
+            fill="#EAF7FC"
+            stroke="#00C6FB"
+            stroke-width="1.5"/>
+
+    <rect x="104" y="174"
+          width="38"
+          height="7"
+          rx="3.5"
+          fill="#0E2A47"/>
+
+    <rect x="82" y="199"
+          width="60"
+          height="6"
+          rx="3"
+          fill="#B9CBD6"/>
+
+
+    <!-- Cloud / digital connection -->
+
+    <path d="M452 382
+             C452 361 468 345 489 345
+             C502 345 514 351 521 362
+             C528 356 537 353 547 353
+             C568 353 584 369 584 390
+             C584 392 584 394 583 396
+             H475
+             C462 396 452 390 452 382Z"
+          fill="#FFFFFF"
+          stroke="#0A58CA"
+          stroke-width="2"/>
+
+
+    <!-- Connection lines -->
+
+    <path d="M163 190L205 214"
+          stroke="#00C6FB"
+          stroke-width="1.7"
+          stroke-dasharray="5 6"/>
+
+    <path d="M365 258L452 382"
+          stroke="#0A58CA"
+          stroke-width="1.7"
+          stroke-dasharray="5 6"/>
+
+
+    <!-- Nodes -->
+
+    <circle cx="205" cy="214" r="5"
+            fill="#00C6FB"/>
+
+    <circle cx="452" cy="382" r="5"
+            fill="#0A58CA"/>
+
+    <circle cx="585" cy="120" r="5"
+            fill="#00C6FB"/>
+
+</svg>

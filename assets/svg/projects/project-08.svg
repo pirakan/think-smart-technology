@@ -1,0 +1,67 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="700" rx="24" fill="#EDF8FB"/>
+
+<circle cx="1080" cy="100" r="190" fill="#D8F1F8"/>
+<circle cx="100" cy="620" r="160" fill="#DCECF2"/>
+
+<!-- Main phone -->
+<rect x="455" y="75" width="290" height="550" rx="42" fill="#06324D"/>
+<rect x="478" y="105" width="244" height="490" rx="28" fill="white"/>
+
+<!-- Speaker -->
+<rect x="565" y="90" width="80" height="7" rx="4" fill="#527086"/>
+
+<!-- App header -->
+<rect x="478" y="105" width="244" height="85" rx="28" fill="#E9F7FB"/>
+<circle cx="515" cy="145" r="20" fill="#00B8E6"/>
+<text x="550" y="142" font-family="Arial" font-size="15" font-weight="700" fill="#07304A">Hello!</text>
+<text x="550" y="162" font-family="Arial" font-size="12" fill="#78909C">Welcome back</text>
+
+<!-- App content -->
+<text x="500" y="225" font-family="Arial" font-size="14" font-weight="700" fill="#07304A">Quick Actions</text>
+
+<rect x="500" y="245" width="100" height="85" rx="15" fill="#EAF7FB"/>
+<circle cx="550" cy="275" r="18" fill="#00B8E6"/>
+<path d="M540 275H560M550 265V285" stroke="white" stroke-width="4"/>
+<text x="522" y="312" font-family="Arial" font-size="11" fill="#527086">Add New</text>
+
+<rect x="612" y="245" width="100" height="85" rx="15" fill="#F1F7FA"/>
+<circle cx="662" cy="275" r="18" fill="#1677B8"/>
+<path d="M653 275L660 282L672 267" stroke="white" stroke-width="3"/>
+<text x="637" y="312" font-family="Arial" font-size="11" fill="#527086">Activity</text>
+
+<!-- Analytics -->
+<text x="500" y="365" font-family="Arial" font-size="14" font-weight="700" fill="#07304A">Performance</text>
+
+<rect x="500" y="385" width="212" height="115" rx="16" fill="#06324D"/>
+<text x="520" y="415" font-family="Arial" font-size="11" fill="#A9C4D2">Monthly Growth</text>
+<text x="520" y="450" font-family="Arial" font-size="27" font-weight="700" fill="white">+32.8%</text>
+
+<path d="M520 475L550 460L580 468L615 430L650 445L690 410" stroke="#00D2F5" stroke-width="4" fill="none"/>
+
+<!-- Bottom navigation -->
+<rect x="500" y="520" width="212" height="52" rx="14" fill="#EEF6F8"/>
+<circle cx="535" cy="546" r="8" fill="#00B8E6"/>
+<circle cx="590" cy="546" r="8" fill="#9DB5C0"/>
+<circle cx="645" cy="546" r="8" fill="#9DB5C0"/>
+<circle cx="690" cy="546" r="8" fill="#9DB5C0"/>
+
+<!-- Left floating cards -->
+<rect x="145" y="210" width="230" height="105" rx="18" fill="white" stroke="#C9E1E8" stroke-width="2"/>
+<circle cx="185" cy="262" r="24" fill="#00B8E6"/>
+<path d="M173 262L182 271L199 250" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<text x="225" y="255" font-family="Arial" font-size="15" font-weight="700" fill="#07304A">Success</text>
+<text x="225" y="277" font-family="Arial" font-size="12" fill="#78909C">Task completed</text>
+
+<rect x="790" y="350" width="260" height="120" rx="18" fill="white" stroke="#C9E1E8" stroke-width="2"/>
+<circle cx="830" cy="410" r="25" fill="#1677B8"/>
+<path d="M817 410H843M830 397V423" stroke="white" stroke-width="5"/>
+<text x="875" y="403" font-family="Arial" font-size="15" font-weight="700" fill="#07304A">Smart Solution</text>
+<text x="875" y="426" font-family="Arial" font-size="12" fill="#78909C">Built for modern users</text>
+
+<!-- Connection lines -->
+<path d="M375 262C410 262 420 250 455 240" stroke="#00A9D6" stroke-width="4" stroke-dasharray="8 8"/>
+<path d="M745 430C770 430 775 410 790 410" stroke="#00A9D6" stroke-width="4" stroke-dasharray="8 8"/>
+
+</svg>

@@ -1,0 +1,66 @@
+<svg width="300" height="300" viewBox="0 0 300 300"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Orbit -->
+    <ellipse cx="150" cy="150"
+             rx="100" ry="48"
+             transform="rotate(-25 150 150)"
+             stroke="#00C6FB"
+             stroke-width="2"
+             stroke-opacity="0.55"/>
+
+    <ellipse cx="150" cy="150"
+             rx="82" ry="125"
+             transform="rotate(35 150 150)"
+             stroke="#FFFFFF"
+             stroke-width="1.5"
+             stroke-opacity="0.25"/>
+
+    <!-- Digital core -->
+    <circle cx="150" cy="150" r="42"
+            fill="#FFFFFF"
+            fill-opacity="0.08"
+            stroke="#00C6FB"
+            stroke-width="3"/>
+
+    <path d="M125 158L139 144L150 152L176 126"
+          stroke="#FFFFFF"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <circle cx="125" cy="158" r="5"
+            fill="#00C6FB"/>
+
+    <circle cx="176" cy="126" r="5"
+            fill="#00C6FB"/>
+
+    <!-- Future nodes -->
+    <circle cx="67" cy="112" r="6"
+            fill="#00C6FB"/>
+
+    <circle cx="232" cy="80" r="5"
+            fill="#FFFFFF"/>
+
+    <circle cx="228" cy="224" r="6"
+            fill="#00C6FB"/>
+
+    <path d="M67 112L108 131"
+          stroke="#00C6FB"
+          stroke-width="1.5"
+          stroke-dasharray="5 6"
+          opacity="0.7"/>
+
+    <path d="M232 80L194 116"
+          stroke="#FFFFFF"
+          stroke-width="1.5"
+          stroke-dasharray="5 6"
+          opacity="0.35"/>
+
+    <path d="M228 224L188 187"
+          stroke="#00C6FB"
+          stroke-width="1.5"
+          stroke-dasharray="5 6"
+          opacity="0.7"/>
+
+</svg>
