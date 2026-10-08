@@ -285,8 +285,11 @@ ol {
    ========================================================= */
 
 .site-header {
-    position: relative;
-    z-index: 90;
+    /* Stays in normal flow at the top, then sticks to the viewport top
+       while the separate top contact bar scrolls away. */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     height: 64px;
 
@@ -296,7 +299,9 @@ ol {
 
     transition:
         box-shadow 0.3s ease,
-        background 0.3s ease;
+        background 0.3s ease,
+        border-color 0.3s ease,
+        backdrop-filter 0.3s ease;
 }
 
 .nav-wrapper {
@@ -520,8 +525,21 @@ ol {
    ========================================================= */
 
 .site-header.header-scrolled {
+    /* background: rgba(255, 255, 255, 0.78);
+    border-bottom-color: rgba(255, 255, 255, 0.42);
+
+    -webkit-backdrop-filter: blur(18px) saturate(150%);
+    backdrop-filter: blur(18px) saturate(150%);
+
     box-shadow:
-        0 8px 30px rgba(14, 42, 71, 0.08);
+        0 8px 30px rgba(14, 42, 71, 0.12); */
+
+    /* background: rgba(255, 255, 255, 0.3); */
+    /* border-radius: 16px; */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.17); */
 }
 
 /* =========================================================
@@ -771,7 +789,7 @@ ol {
     width: min(360px, 90vw);
     height: 100vh;
 
-    z-index: 999;
+    z-index: 1000;
 
     display: flex;
     flex-direction: column;
@@ -1375,11 +1393,23 @@ ol {
 .site-header {
     transition:
         box-shadow 0.3s ease,
-        background 0.3s ease;
+        background 0.3s ease,
+        border-color 0.3s ease,
+        backdrop-filter 0.3s ease;
 }
 
 .site-header.header-scrolled {
-    box-shadow: 0 8px 30px rgba(14, 42, 71, 0.08);
+    /* background: rgba(255, 255, 255, 0.78);
+    border-bottom-color: rgba(255, 255, 255, 0.42);
+    -webkit-backdrop-filter: blur(18px) saturate(150%);
+    backdrop-filter: blur(18px) saturate(150%);
+    box-shadow: 0 8px 30px rgba(14, 42, 71, 0.12); */
+    background: rgba(255, 255, 255, 0.3);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
 }
 
 
@@ -1404,4 +1434,18 @@ body.search-active .search-button {
         transition: none;
     }
 
-} 
+}
+@media (max-width: 767px) {
+    div.container.nav-wrapper {
+           background: rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(9.1px);
+            -webkit-backdrop-filter: blur(9.1px);
+            border: 1px solid rgba(255, 255, 255, 0.17);
+    }
+    /* header.site-header {
+        display: none;
+    } */
+}
+

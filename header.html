@@ -121,3 +121,19 @@
     </div>
 
 </header>
+
+
+<!-- Sticky glass header: the top contact bar scrolls away, while only the main header stays at the top. -->
+<script>
+(function () {
+    const header = document.querySelector('.site-header');
+    if (!header) return;
+
+    const updateHeader = () => {
+        header.classList.toggle('header-scrolled', window.scrollY > 8);
+    };
+
+    updateHeader();
+    window.addEventListener('scroll', updateHeader, { passive: true });
+})();
+</script>
