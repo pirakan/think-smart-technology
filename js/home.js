@@ -393,3 +393,22 @@ document.addEventListener("DOMContentLoaded", () => {
         initHome();
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    document.querySelectorAll(".mobile-navigation a, .main-navigation a").forEach(link => {
+        const linkPage = link.getAttribute("href");
+
+        if (!linkPage) return;
+
+        const cleanLink = linkPage.split("/").pop().split("#")[0];
+
+        if (
+            cleanLink === currentPage ||
+            (currentPage === "" && cleanLink === "index.html")
+        ) {
+            link.classList.add("active");
+        }
+    });
+});
