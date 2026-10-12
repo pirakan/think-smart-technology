@@ -783,7 +783,7 @@ ol {
     top: 0;
     right: 0;
 
-    width: min(360px, 90vw);
+    width: min(60%, 90vw);
     height: 100vh;
 
     z-index: 1000;
